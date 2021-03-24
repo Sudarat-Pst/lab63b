@@ -2,16 +2,16 @@
 ## วัตถุประสงค์
 1. เพื่อรู้วิธีการเขียนโปรแกรมบน Microcontroller
 ## อุปกรณ์ที่ใช้
-1.Microcontroller
-2.อุปกร์สำหรับต่อUSB
-3.เสาอากาศสำหรับ Wifi
+* 1.Microcontroller
+* 2.อุปกร์สำหรับต่อUSB
+* 3.เสาอากาศสำหรับ Wifi
 ## แหล่งข้อมูลเพื่อการศึกษา
 01 run example 1 https://youtu.be/NLIUsWLEpmg
 ## วิธีทำการทดลอง
-1.ต่อ Microcontroller เข้ากับ serial
-2.เข้า Command promt เข้าไปดูตัวอย่างโปรแกรม โดยใช้คำสั่ง cd pattanitor
-3.เข้าโปรแกรมที่ 1 : cd 01_Serial-Moni
-4.ใช้คำสั่ง vi src/main.cpp จะได้โค้ดที่รันคือ
+* 1.ต่อ Microcontroller เข้ากับ serial
+* 2.เข้า Command promt เข้าไปดูตัวอย่างโปรแกรม โดยใช้คำสั่ง cd pattanitor
+* 3.เข้าโปรแกรมที่ 1 : cd 01_Serial-Moni
+* 4.ใช้คำสั่ง vi src/main.cpp จะได้โค้ดที่รันคือ
 
 ![image](https://user-images.githubusercontent.com/80880258/112250302-b3cf9280-8c8b-11eb-9be3-db5204331900.png)
 
@@ -35,6 +35,6 @@
 ## คำถาม
 อยากทราบว่าบอร์ดที่ใช้เป็นบอร์ดชื่ออะไร มาจากบริษัทไหน เขียนด้วยวิธีใด
 ตอบ ใช้คำสั่ง vi platformio.ini จะได้ข้อมูลว่าเป็น 
-     บอร์ดชื่อ Esp01_1m
-     จากบริษัท espressif8266
-     เขียนด้วย arduino
+     * 1.บอร์ดชื่อ Esp01_1m
+     * 2.จากบริษัท espressif8266
+     * 3.เขียนด้วย arduino
